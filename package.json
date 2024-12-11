@@ -1,0 +1,24 @@
+{
+  "name": "diana",
+  "version": "1.0.0",
+  "main": "calculator.js",
+  "scripts": {
+    "test:add": "jest /calculatorAdd.test.js",
+    "test:subtract": "jest /calculatorSubtract.test.js",
+    "test:multiply": "jest /calculatorMultiply.test.js",
+    "test:divide": "jest /calculatorDivide.test.js",
+    "test:percentage": "jest /calculatorPercentage.test.js",
+    "test:power": "jest /calculatorPower.test.js",
+    "test:log": "jest /calculatorLog.test.js",
+    "test:factorial": "jest /calculatorFactorial.test.js",
+    "test:all": "jest /calculator.test.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
